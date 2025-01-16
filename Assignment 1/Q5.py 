@@ -1,0 +1,23 @@
+numbers=[11,31,98.57,63] 
+print("max=" ,max(numbers)) 
+print("min=" , min(numbers) ) 
+
+
+dict={"name":"kamlesh","Age":10,"city":"BHOPAL","kaise?":"bhag ke"} 
+key=input("enter key ")
+if key in dict:
+  print("key :",dict[key])
+else:
+ print("key not found ")
+
+nums = [31,64,23,43,12] 
+print("asc order: ",sorted(nums)) 
+print("dsc order: ",sorted(nums,reverse=True))  
+
+
+dict1={'a':1,'b':2}
+dict2={'c':3,'d':4} 
+merged_dict={}
+merged_dict.update(dict1)
+merged_dict.update(dict2)
+print(merged_dict)  
